@@ -1,5 +1,5 @@
 {
-    "version": "6.5.0-2",
+    "version": "6.7.4-1",
     "description": "A command-line utility that pipes video streams from various services into a video player.",
     "homepage": "https://streamlink.github.io/",
     "license": "BSD-2-Clause",
@@ -10,14 +10,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/streamlink/windows-builds/releases/download/6.5.0-2/streamlink-6.5.0-2-py311-x86_64.zip",
-            "hash": "60184d9b30ade51273b9a10ee73ce23962d60902a63ec977a1a201cd4a6da904",
-            "extract_dir": "streamlink-6.5.0-2-py311-x86_64"
+            "url": "https://github.com/streamlink/windows-builds/releases/download/6.7.4-1/streamlink-6.7.4-1-py312-x86_64.zip",
+            "hash": "248aa31ec4afedb05f83a5e70838888ba018d44d905cc1a1c1cbb8a31ac9c613",
+            "extract_dir": "streamlink-6.7.4-1-py312-x86_64"
         },
         "32bit": {
-            "url": "https://github.com/streamlink/windows-builds/releases/download/6.5.0-2/streamlink-6.5.0-2-py311-x86.zip",
-            "hash": "86c186654e9368810dcc565ee570ee221f8db7ab451ed80d5ffc5da9c30e3b9d",
-            "extract_dir": "streamlink-6.5.0-2-py311-x86"
+            "url": "https://github.com/streamlink/windows-builds/releases/download/6.7.4-1/streamlink-6.7.4-1-py312-x86.zip",
+            "hash": "f4e369f79842b91b72f3faf082da49484d2770b34375d21fea1a21e42d33874b",
+            "extract_dir": "streamlink-6.7.4-1-py312-x86"
         }
     },
     "pre_install": [
@@ -46,12 +46,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py311-x86_64.zip",
-                "extract_dir": "streamlink-$version-py311-x86_64"
+                "url": "https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py312-x86_64.zip",
+                "extract_dir": "streamlink-$version-py312-x86_64"
             },
             "32bit": {
-                "url": "https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py311-x86.zip",
-                "extract_dir": "streamlink-$version-py311-x86"
+                "url": "https://github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py312-x86.zip",
+                "extract_dir": "streamlink-$version-py312-x86"
             }
         }
     }

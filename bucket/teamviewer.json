@@ -1,5 +1,5 @@
 {
-    "version": "15.49.2",
+    "version": "15.54.3",
     "description": "Remote control, desktop sharing, online meetings, web conferencing and file transfer between computers",
     "homepage": "https://www.teamviewer.com",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.teamviewer.com/en/eula/"
     },
     "url": "https://download.teamviewer.com/download/version_15x/TeamViewerPortable.zip",
-    "hash": "a04c2951ad5f92fe7a8b168f3bdccf1b93964a3ed72c9d40460b34659ebafde1",
+    "hash": "c2fee4d2286b2b7fb8c5f9a43bd46283cd698ff3d8d4c972fde5014ccefc9f94",
     "pre_uninstall": [
         "# For details, see: https://community.teamviewer.com/English/discussion/49721",
         "Stop-Process -Name 'teamviewer' -ErrorAction SilentlyContinue",

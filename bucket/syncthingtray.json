@@ -1,5 +1,5 @@
 {
-    "version": "1.4.11",
+    "version": "1.5.3",
     "description": "Tray application for Syncthing",
     "homepage": "https://github.com/Martchus/syncthingtray",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.4.11/syncthingtray-1.4.11-x86_64-w64-mingw32.exe.zip",
-            "hash": "84bb58505df4e9de5653352a8357359e8b46d8376e0d6e7e197b0c6786f1c8fb"
+            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.5.3/syncthingtray-1.5.3-x86_64-w64-mingw32.exe.zip",
+            "hash": "9002f329ef2a4ce986b69b4cd88bffa7e964aeb10f17c707396a0af99159a528"
         },
         "32bit": {
-            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.4.11/syncthingtray-1.4.11-i686-w64-mingw32.exe.zip",
-            "hash": "81cb3551c39c5bfb1689b84d310920ec2d74233062576d01bcc2072fd74ded3f"
+            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.5.3/syncthingtray-1.5.3-i686-w64-mingw32.exe.zip",
+            "hash": "537059103419f81db56ef7af629d53a8fef6532898daeded1d9fc1a25525efa5"
         }
     },
     "pre_install": [

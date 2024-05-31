@@ -1,13 +1,13 @@
 {
-    "version": "23.08.4-2254",
+    "version": "24.05-7374",
     "description": "Multi-document editor",
     "homepage": "https://kate-editor.org",
     "license": "LGPL-2.0-only",
     "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/Kate_Release_win64/2254/artifact/kate-23.08.4-2254-windows-cl-msvc2019-x86_64.7z",
-            "hash": "2c886b680a3c11e95de96d56467727cdf4542256af49079a4c67a89464b9f128"
+            "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-24.05/windows/kate-release_24.05-7374-windows-cl-msvc2022-x86_64.7z",
+            "hash": "5a828b95790885568d8dd69c342f576b67fd9e6b9a39baf696260ca204e20fca"
         }
     },
     "bin": "bin\\kate.exe",
@@ -18,13 +18,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://binary-factory.kde.org/job/Kate_Release_win64/",
-        "regex": "kate-([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
+        "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-24.05/windows/",
+        "regex": "kate-release_([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://binary-factory.kde.org/job/Kate_Release_win64/$preReleaseVersion/artifact/kate-$version-windows-cl-$matchLib-x86_64.7z",
+                "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-$matchHead/windows/kate-release_$version-windows-cl-$matchLib-x86_64.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }

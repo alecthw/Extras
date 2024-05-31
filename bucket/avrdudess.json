@@ -1,10 +1,10 @@
 {
-    "version": "2.14",
+    "version": "2.17",
     "description": "A GUI for AVRDUDE",
     "homepage": "https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/ZakKemble/AVRDUDESS/releases/download/v2.14/AVRDUDESS-2.14-portable.zip",
-    "hash": "c77c5cb092c12553bc5dd578394bde67828ba8de73ff3d05b0d2db18748da07b",
+    "url": "https://github.com/ZakKemble/AVRDUDESS/releases/download/v2.17/AVRDUDESS-2.17-portable.zip",
+    "hash": "4dc5d7183b3be50d9ec3e9b607fa74d18db83b9689425a7edc57009fb1925722",
     "shortcuts": [
         [
             "avrdudess.exe",

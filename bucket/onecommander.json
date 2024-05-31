@@ -1,13 +1,13 @@
 {
-    "version": "3.61.4.0",
+    "version": "3.80.2.0",
     "description": "A modern dual-pane file manager with tabs, columns view, built-in preview, editable themes, and more.",
     "homepage": "https://onecommander.com/",
     "license": {
         "identifier": "Freeware",
         "url": "https://onecommander.com/license.txt"
     },
-    "url": "https://onecommander.com/OneCommander3.61.4.0.zip",
-    "hash": "6a07cbd82d0e545f5448b15f2f103daf2ad4638125a4f6273615f31f2032c8a8",
+    "url": "https://onecommander.com/OneCommander3.80.2.0.zip",
+    "hash": "a4b9b167ba5f2566629304913230a9c0a1b98fbb798635cbfeb9e86614175eeb",
     "shortcuts": [
         [
             "OneCommander.exe",

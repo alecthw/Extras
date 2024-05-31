@@ -1,0 +1,17 @@
+{
+    "version": "0.33.0",
+    "description": "The Determined CLI is a command line tool that lets you launch new experiments and interact with a Determined cluster.",
+    "homepage": "https://github.com/sirredbeard/determined-windows-cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sirredbeard/determined-windows-cli/releases/download/0.33.0/determined-cli.zip",
+            "hash": "eef4d5b7d7937a5f553a09bd32048ada8d08d66f07e87dcb62bc93287d14cdf7"
+        }
+    },
+    "bin": "det.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sirredbeard/determined-windows-cli/releases/download/$version/determined-cli.zip"
+    }
+}

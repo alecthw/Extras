@@ -1,10 +1,10 @@
 {
-    "version": "2.13.9",
+    "version": "2.14.22",
     "description": "A note taking and to-do application with synchronization capabilities",
     "homepage": "https://joplinapp.org",
     "license": "MIT",
-    "url": "https://github.com/laurent22/joplin/releases/download/v2.13.9/Joplin-Setup-2.13.9.exe#/dl.7z",
-    "hash": "sha512:853559c0d148bfc09b4fd4263b90483e32a3f88e144169374c36dc6509a0e5545be32880f74a9060f4cc251e63d839248ea22f63a3832a9f704edd0194523b70",
+    "url": "https://github.com/laurent22/joplin/releases/download/v2.14.22/Joplin-Setup-2.14.22.exe#/dl.7z",
+    "hash": "sha512:82e9ae960f920d52fc2e17b6e35860554acbcb30706ddb4938a48ea365a240c042e124a99a781050e481e3c60fd0cc5dbb966e8da951057fe2dd55ec1e9e3c13",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""

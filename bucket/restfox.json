@@ -1,0 +1,32 @@
+{
+    "version": "0.17.0",
+    "description": "An offline-first minimalistic HTTP client for API development and testing",
+    "homepage": "https://restfox.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/flawiddsouza/Restfox/releases/download/v0.17.0/Restfox-0.17.0-full.nupkg",
+            "hash": "sha1:c124f7b190014ac64ac7e1018236a174b2d37127"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "Restfox.exe",
+            "Restfox"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/flawiddsouza/Restfox"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/flawiddsouza/Restfox/releases/download/v$version/Restfox-$version-full.nupkg"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/RELEASES"
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "version": "5.4.3",
+    "version": "5.7.12",
     "description": "The Fastest copy/backup software.",
     "homepage": "https://fastcopy.jp/",
     "license": {
@@ -10,8 +10,8 @@
         "If an error occurs when updating or uninstalling, execute the following command then retry:",
         "`Stop-Process -Name 'explorer'`"
     ],
-    "url": "https://fastcopy.jp/archive/FastCopy5.4.3_installer.exe",
-    "hash": "b309e5c857e950d72228313ca991134c5a9c7fc723e7a4e9c0e34b4027e6f939",
+    "url": "https://fastcopy.jp/archive/FastCopy5.7.12_installer.exe",
+    "hash": "a3ec50bc0379ac37e093570610f74df93c51cc9b012cdb63d77b073995c5f677",
     "pre_install": [
         "Start-Process \"$dir\\$fname\" -Args @('/SILENT', \"/DIR=\"\"$dir\"\"\", '/NOPROG', '/NODESK') -Wait",
         "Copy-Item \"$persist_dir\\FastCopy.log\", \"$persist_dir\\FastCopy2.ini\", \"$persist_dir\\Log\" -Destination \"$dir\" -Force -Recurse -ErrorAction SilentlyContinue",

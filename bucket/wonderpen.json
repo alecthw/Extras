@@ -1,5 +1,5 @@
 {
-    "version": "2.4.2",
+    "version": "2.4.7",
     "description": "Professional writing app with a focused and fluid writing experience.",
     "homepage": "https://www.tominlab.com/en/wonderpen",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://file.tominlab.com/WonderPen/2.4/WonderPen_win_installer_x64_2.4.2(7266).exe#/dl.7z",
-            "hash": "ed7325da584a204e0920157528b40c33e3776455b4ad09ccf33f3fa70e89c3df"
+            "url": "https://file.tominlab.com/WonderPen/2.4/WonderPen_win_installer_x64_2.4.7(7386).exe#/dl.7z",
+            "hash": "4501c4bdabf137bc0a3c6a47e87912d42cf06f5b9b69eb4e3d0ff6a66deac481"
         },
         "32bit": {
-            "url": "https://file.tominlab.com/WonderPen/2.4/WonderPen_win_installer_ia32_2.4.2(7266).exe#/dl.7z",
-            "hash": "673dfc326ed54302d9b1f936af490403d70b9883aa8b08b8005c684cd5fae89e"
+            "url": "https://file.tominlab.com/WonderPen/2.4/WonderPen_win_installer_ia32_2.4.7(7386).exe#/dl.7z",
+            "hash": "aa694dd56e347e75b0366579ddfcedbe58d17fea2dc77864194d4377344236e6"
         },
         "arm64": {
-            "url": "https://file.tominlab.com/WonderPen/2.4/WonderPen_win_installer_arm64_2.4.2(7266).exe#/dl.7z",
-            "hash": "bb1bea6065163606dacb6883d20e2d3e1991dcb30e6c9b5128af641d8f2e3a8c"
+            "url": "https://file.tominlab.com/WonderPen/2.4/WonderPen_win_installer_arm64_2.4.7(7386).exe#/dl.7z",
+            "hash": "1b439ad3fe41af406e530b90be9b1656f3bad696aeffb9c931c76dfd64bbe1e7"
         }
     },
     "installer": {

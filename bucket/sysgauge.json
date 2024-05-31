@@ -1,16 +1,16 @@
 {
-    "version": "10.2.12",
+    "version": "10.7.14",
     "description": "A system and performance monitoring utility",
     "homepage": "https://www.sysgauge.com",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "http://www.sysgauge.com/setups_x64/sysgauge_setup_v10.2.12_x64.exe#/dl.7z",
-            "hash": "b4dc88d0f1946b7798b6928aa3125b6d891a967d7b6d45140fd39ed89e820af3"
+            "url": "http://www.sysgauge.com/setups_x64/sysgauge_setup_v10.7.14_x64.exe#/dl.7z",
+            "hash": "8cca3ce31416c337c96dd2590b3aad4d251633f2c0bcbbd4c2c63c9a2fa24c3a"
         },
         "32bit": {
-            "url": "http://www.sysgauge.com/setups/sysgauge_setup_v10.2.12.exe#/dl.7z",
-            "hash": "4a28a50df1843c96fd9f4c57c927b92d169858519270d019c69e8b208013e6dc"
+            "url": "http://www.sysgauge.com/setups/sysgauge_setup_v10.7.14.exe#/dl.7z",
+            "hash": "783b1e553e4f04f422ffdb14d4abbbddfce09c18ae69aeced75420faa10d24fb"
         }
     },
     "installer": {

@@ -1,16 +1,16 @@
 {
-    "version": "23.10.22",
+    "version": "24.05.23",
     "description": "A video and audio player which can play most formats and codecs.",
     "homepage": "https://github.com/zaps166/QMPlay2",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zaps166/QMPlay2/releases/download/23.10.22/QMPlay2-Win64-23.10.22.exe#/dl.7z",
-            "hash": "e7e76e8d1df47a5a77cfff754a766de90bdb50fcb64444afaee1261d0a197d2f"
+            "url": "https://github.com/zaps166/QMPlay2/releases/download/24.05.23/QMPlay2-Win64-24.05.23.exe#/dl.7z",
+            "hash": "7c18cf6de8ad1ea8000adf77dd125c80dbe6fdc5b5e5df72641eb6deb6cbded1"
         },
         "32bit": {
-            "url": "https://github.com/zaps166/QMPlay2/releases/download/23.10.22/QMPlay2-Win32-23.10.22.exe#/dl.7z",
-            "hash": "6d9feb46a102790e774e7044d7d5c19a1561ae3fb7ef91b069bc56231f90f42e"
+            "url": "https://github.com/zaps166/QMPlay2/releases/download/24.05.23/QMPlay2-Win32-24.05.23-qt5.exe#/dl.7z",
+            "hash": "1c3ebd5e8228c96e003b5db15bf7fe9dcc76dd3869e5c105ae03becd6f3ed63b"
         }
     },
     "post_install": [
@@ -31,7 +31,7 @@
                 "url": "https://github.com/zaps166/QMPlay2/releases/download/$version/QMPlay2-Win64-$version.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/zaps166/QMPlay2/releases/download/$version/QMPlay2-Win32-$version.exe#/dl.7z"
+                "url": "https://github.com/zaps166/QMPlay2/releases/download/$version/QMPlay2-Win32-$version-qt5.exe#/dl.7z"
             }
         },
         "hash": {

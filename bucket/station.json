@@ -1,12 +1,12 @@
 {
-    "version": "2.2.1",
+    "version": "3.0.0",
     "description": "Open-source smart browser for busy people. A single place for all of your web applications.",
     "homepage": "https://getstation.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getstation/desktop-app/releases/download/v2.2.1/Station-x64-Setup.exe#/dl.7z",
-            "hash": "sha512:ffa9c5ccfc573719a28c93ba8f8d42b72271e6ef1f2acd39b60202293986e63585a366d0abab098ec0d9522f010bf4df6971bb231c7c03612ba6f37d8d92037f"
+            "url": "https://github.com/getstation/desktop-app/releases/download/v3.0.0/Station-Setup.exe#/dl.7z",
+            "hash": "sha512:8260970c2d7623534df29f3c15a58f6a10e80fc2e8e6c114eefb085ab35390a7f81a88d3ebdd9fe62f22455e507b0c7f8ccd6a2d674e5970258aac7c18e6d186"
         }
     },
     "pre_install": [
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/getstation/desktop-app/releases/download/v$version/Station-x64-Setup.exe#/dl.7z"
+                "url": "https://github.com/getstation/desktop-app/releases/download/v$version/Station-Setup.exe#/dl.7z"
             }
         },
         "hash": {

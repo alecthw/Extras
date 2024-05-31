@@ -1,13 +1,13 @@
 {
-    "version": "29.1",
+    "version": "29.3",
     "description": "An extensible, customizable, free/libre text editor.",
     "homepage": "https://www.gnu.org/software/emacs/",
     "license": "GPL-3.0-or-later",
     "notes": "For 32-bit version, install 'versions/emacs27.2'",
     "architecture": {
         "64bit": {
-            "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-29/emacs-29.1.zip",
-            "hash": "8bf7f8921089a53f1c5686698f8155131e6b70790735c1663a7cdd1e172f72ea"
+            "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-29/emacs-29.3.zip",
+            "hash": "3ab16bb937c2e4a556d5207e1ac98e05d9f5fe37eb9275afb7f54219547637af"
         }
     },
     "bin": [
